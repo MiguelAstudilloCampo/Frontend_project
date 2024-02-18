@@ -1,5 +1,5 @@
 import React from "react";
-import "./style/DataList.css";
+import "./Style/DataList.css";
 
 const DataList = ({ data, onEdit, onDelete }) => {
   return (
