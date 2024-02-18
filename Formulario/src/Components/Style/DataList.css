@@ -1,0 +1,48 @@
+.Botones{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2%;
+    justify-content: center;
+    margin-top: 6%;
+}
+.Tabla{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+}
+.informacion{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: black;
+    border-style: solid; */
+    padding: 2%;
+}
+.datos{
+    display: flex;
+    gap: 4rem;
+
+}
+.id{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
