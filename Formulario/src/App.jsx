@@ -10,9 +10,11 @@ const App = () => {
   const [selectedData, setSelectedData] = useState(null);
   const [isCreateModalOpen, setCreateModalOpen] = useState(false);
   const [isEditModalOpen, setEditModalOpen] = useState(false);
+  const [idCounter, setIdCounter] = useState(1); // Nuevo estado para el contador
 
   const handleCreate = (newData) => {
-    setData([...data, { ...newData, id: Date.now().toString() }]);
+    setData([...data, { ...newData, id: idCounter.toString() }]);
+    setIdCounter(idCounter + 1); // Incrementa el contador después de cada creación
   };
 
   const handleEdit = (editedData) => {

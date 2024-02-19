@@ -26,7 +26,7 @@ const EditModal = ({ isOpen, onClose, onUpdate, selectedData }) => {
   };
 
   return (
-    <div style={{ display: isOpen ? "block" : "none" }}>
+    <div className={`Modal ${isOpen ? "open" : ""}`}>
       <div className="Contenedo">
         <h3>Editar Registro</h3>
         <div className="inputs">

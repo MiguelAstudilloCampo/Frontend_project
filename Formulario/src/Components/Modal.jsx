@@ -21,7 +21,7 @@ const CreateModal = ({ isOpen, onClose, onCreate }) => {
   };
 
   return (
-    <div style={{ display: isOpen ? "block" : "none" }}>
+    <div className={`Modal ${isOpen ? "open" : ""}`}>
       <div className="Contenedor">
         <h3>Crear Registro</h3>
         <div>
